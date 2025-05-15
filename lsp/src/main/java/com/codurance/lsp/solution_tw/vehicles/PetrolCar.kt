@@ -1,4 +1,4 @@
-package com.codurance.lsp.solution_tw
+package com.codurance.lsp.solution_tw.vehicles
 
 class PetrolCar: PetrolVehicle() {
 

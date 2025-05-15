@@ -1,6 +1,7 @@
-package com.codurance.lsp.solution_tw
+package com.codurance.lsp.solution_tw.vehicles
 
 abstract class Vehicle {
+    abstract val deliveryFactor: Double
     private var engineStarted: Boolean = false
 
     fun startEngine() {

@@ -1,6 +1,6 @@
-package com.codurance.lsp.solution_tw
+package com.codurance.lsp.solution_tw.vehicles
 
-class ElectricCar: ElectricVehicle() {
+class ElectricBike: ElectricVehicle() {
 
     companion object {
         private const val BATTERY_FULL = 100
@@ -13,4 +13,6 @@ class ElectricCar: ElectricVehicle() {
     override fun chargeBattery() {
         batteryLevel = BATTERY_FULL
     }
+
+    override val deliveryFactor: Double = 0.5
 }
